@@ -93,7 +93,7 @@ setup(	name='catwoman',
 	include_dirs = [np.get_include()],
 	install_requires = ['numpy>=1.16.2'],
 	setup_requires=['wheel','numpy>=1.16.2'],
-	extras_requires= {
+	extras_require= {
 	    'matplotlib': ['matplotlib'],
 	},
 	ext_modules=[_nonlinear_ld, _quadratic_ld, _logarithmic_ld, _exponential_ld, _power2_ld, _custom_ld, _rsky, _eclipse]
